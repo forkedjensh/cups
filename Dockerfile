@@ -1,6 +1,7 @@
 FROM alpine
 
 LABEL maintainer="Jens Heidbüchel <j.heidbuechel@mailbox.org>"
+ENV REFRESHED_AT 2022-10-24
 
 RUN apk add --no-cache cups cups-filters
 
